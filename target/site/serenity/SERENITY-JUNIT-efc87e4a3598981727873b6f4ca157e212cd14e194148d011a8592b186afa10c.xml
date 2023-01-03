@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.gorest.gorestinfo.UserCRUDTest" skipped="0" tests="4" time="14.31" timestamp="2023-01-02T20:28:27.553Z[Europe/London]"><testcase classname="com.gorest.gorestinfo.UserCRUDTest" name="This will create new user"/><testcase classname="com.gorest.gorestinfo.UserCRUDTest" name="Verify that user is added "/><testcase classname="com.gorest.gorestinfo.UserCRUDTest" name="Updating user information and verify the updated information"><failure message="&#10;Expected: map containing [ANYTHING-&gt;&quot;pr1_add&quot;]&#10;     but: map was [&lt;gender=male&gt;, &lt;name=pr1&gt;, &lt;id=27287&gt;, &lt;email=Prime10552@gmail.com&gt;, &lt;status=active&gt;]" type="java.lang.AssertionError">
+Expected: map containing [ANYTHING-&gt;"pr1_add"]
+     but: map was [&lt;gender=male&gt;, &lt;name=pr1&gt;, &lt;id=27287&gt;, &lt;email=Prime10552@gmail.com&gt;, &lt;status=active&gt;]</failure><system-err>
+Expected: map containing [ANYTHING-&gt;"pr1_add"]
+     but: map was [&lt;gender=male&gt;, &lt;name=pr1&gt;, &lt;id=27287&gt;, &lt;email=Prime10552@gmail.com&gt;, &lt;status=active&gt;]&#13;
+com.gorest.gorestinfo.UserCRUDTest.test003(UserCRUDTest.java:48)&#13;
+</system-err></testcase><testcase classname="com.gorest.gorestinfo.UserCRUDTest" name="Deleting user with id and verify that user is deleted"/></testsuite>
